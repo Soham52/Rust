@@ -32,7 +32,7 @@ fn main()
             Ordering::Greater => println!("Too Large!"),
             Ordering::Equal =>
             {
-                print!("You Win!!");
+                println!("You Win!!");
                 break;
             }
         }
